@@ -1,0 +1,11 @@
+[package]
+name = "rrox"
+version = "0.1.0"
+edition = "2021"
+description = "rrox is a cli for running rox language code"
+license = "MIT OR Apache-2.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+roxc = { path = "../roxc" }
